@@ -84,7 +84,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'donatello_talent_place',
-        'USER': 'donatello_python_db_user',
+        'USER': 'donatello_talent_place_user',
         'PASSWORD': 'GEKTdcbcoFecQJwThOrrcMqklysLwgfO',
         'HOST': 'dpg-cqgsfg2ju9rs73ebmfmg-a.oregon-postgres.render.com',
         'PORT': '5432',
