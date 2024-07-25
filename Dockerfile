@@ -37,4 +37,4 @@ ENV PYTHONDONTWRITEBYTECODE 1
 EXPOSE 8000
 
 # Configura la ejecución de la aplicación
-CMD ["python3", "manage.py", "runserver"]
+CMD ["python3", "manage.py", "runserver", "--bind", "0.0.0.0:8000"]

@@ -4,5 +4,4 @@ services:
     repo: https://github.com/DEV-AusA/donatello-test
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: python manage.py runserver 127.0.0.1:8010
- 
+    startCommand: python manage.py runserver 0.0.0.0:8000
