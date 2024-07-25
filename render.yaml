@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: donatello
+    docker:
+      image: <your-docker-image>
+      buildCommand: docker build -t <your-docker-image> .
+      startCommand: python manage.py runserver 0.0.0.0:$PORT
