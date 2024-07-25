@@ -4,20 +4,20 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn donatello.wsgi:application --bind 0.0.0.0:$PORT
-    envVars:
-      - key: SECRET_KEY
-        value: django-insecure-417gr$#pl-mz-p*i612^&v)0$5a3&f7zs)h^1ori$vw1w#u9fa
-      - key: DEBUG
-        value: 'False'
-      - key: ALLOWED_HOSTS
-        value: 'onrender.com'
-      - key: DB_NAME
-        value: donatello_talent_place
-      - key: DB_USER
-        value: donatello_python_db_user
-      - key: DB_PASSWORD
-        value: GEKTdcbcoFecQJwThOrrcMqklysLwgfO
-      - key: DB_HOST
-        value: dpg-cqgsfg2ju9rs73ebmfmg-a.oregon-postgres.render.com
-      - key: DB_PORT
-        value: 5432
+    # envVars:
+    #   - key: SECRET_KEY
+    #     value: django-insecure-417gr$#pl-mz-p*i612^&v)0$5a3&f7zs)h^1ori$vw1w#u9fa
+    #   - key: DEBUG
+    #     value: 'False'
+    #   - key: ALLOWED_HOSTS
+    #     value: 'onrender.com'
+    #   - key: DB_NAME
+    #     value: donatello_talent_place
+    #   - key: DB_USER
+    #     value: donatello_python_db_user
+    #   - key: DB_PASSWORD
+    #     value: GEKTdcbcoFecQJwThOrrcMqklysLwgfO
+    #   - key: DB_HOST
+    #     value: dpg-cqgsfg2ju9rs73ebmfmg-a.oregon-postgres.render.com
+    #   - key: DB_PORT
+    #     value: 5432
