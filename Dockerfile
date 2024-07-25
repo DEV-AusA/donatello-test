@@ -33,5 +33,8 @@ ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 # ENV PYTHONPATH /usr/local/bin/django-admin
 
+# Expone el puerto en el que la aplicación escuchará
+EXPOSE 8000
+
 # Configura la ejecución de la aplicación
 CMD ["python3", "manage.py", "runserver"]
