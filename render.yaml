@@ -10,7 +10,7 @@ services:
       - key: DEBUG
         value: 'False'
       - key: ALLOWED_HOSTS
-        value: ['onrender.com']
+        value: 'onrender.com'
       - key: DB_NAME
         value: donatello_talent_place
       - key: DB_USER
