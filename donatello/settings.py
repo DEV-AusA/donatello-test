@@ -83,11 +83,11 @@ WSGI_APPLICATION = 'donatello.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT'),
+        'NAME': 'donatello_talent_place',
+        'USER': 'donatello_python_db_user',
+        'PASSWORD': 'GEKTdcbcoFecQJwThOrrcMqklysLwgfO',
+        'HOST': 'dpg-cqgsfg2ju9rs73ebmfmg-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
